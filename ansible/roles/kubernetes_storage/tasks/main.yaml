@@ -1,0 +1,16 @@
+---
+  - name: create kubernetes secret for Ceph auth tokens
+    include_tasks: create_ceph_auth_secret.yaml
+    with_items: "{{ auth_tokens }}"
+    loop_control:
+      loop_var: token
+    when: ( ceph_configured | default(False) )
+
+  - name: create kubernetes storage class
+    import_tasks: create_ceph_storage_class.yaml
+    when: ( ceph_configured | default(False) )
+
+  - name: create kubernetes storage class
+    import_tasks: create_local_storage_class.yaml
+    when: ( ( not ceph_configured) | default(True) )
+

@@ -1,0 +1,15 @@
+---
+  - name: template storage class manifets
+    template:
+      src: local-storageclass.yaml.j2
+      dest: "{{ caas.docker_directory }}/manifests/infra/local-storageclass.yaml"
+    vars:
+      name: ceph-storage-class
+      pool: caas
+
+  - name: create kubernetes storage class
+    kubectl:
+      manifest: "{{ caas.docker_directory }}/manifests/infra/local-storageclass.yaml"
+      state: present
+    when: ( nodename | search("caas_master1") )
+

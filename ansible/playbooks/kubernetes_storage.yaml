@@ -1,0 +1,8 @@
+# nokia.cmframework.requires: kubedns.yaml
+---
+- hosts: caas_master
+  strategy: free
+  become: true
+  become_user: "{{ users.admin_user_name }}"
+  roles:
+    - role: kubernetes_storage

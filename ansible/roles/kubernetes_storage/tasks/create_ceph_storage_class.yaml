@@ -1,0 +1,32 @@
+---
+  - name: get ceph mons
+    become: true
+    become_user: root
+    shell: "ceph mon dump -f json"
+    register: get_ceph_mons
+
+  - name: parse mons command output
+    set_fact:
+      ceph_mons_dump: "{{ get_ceph_mons.stdout | from_json }}"
+  - name: assemble mons list string
+    set_fact:
+      ceph_mons_list: "{{ ceph_mons_dump.mons | map(attribute='addr') | join(',')}}"
+
+  - name: get auth tokens
+    set_fact:
+      ceph_admin_token: "{{ auth_tokens | selectattr('name', 'search', 'admin') | first }}"
+      ceph_user_token: "{{ auth_tokens | selectattr('name', 'search', 'caas') | first }}"
+
+  - name: template storage class manifets
+    template:
+      src: ceph-storageclass.yaml.j2
+      dest: "{{ caas.docker_directory }}/manifests/infra/ceph-storageclass.yaml"
+    vars:
+      name: ceph-storage-class
+      pool: caas
+
+  - name: create kubernetes storage class
+    kubectl:
+      manifest: "{{ caas.docker_directory }}/manifests/infra/ceph-storageclass.yaml"
+      state: present
+    when: ( nodename | search("caas_master1") )

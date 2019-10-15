@@ -1,0 +1,10 @@
+auth_tokens:
+  - name: admin
+    secret_name: ceph-admin
+    namespace: kube-system
+  - name: caas
+    secret_name: ceph-user
+    namespace: kube-system
+  - name: caas
+    secret_name: ceph-user
+    namespace: default
