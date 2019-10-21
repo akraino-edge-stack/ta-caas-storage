@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "52047cde_1eae24c6",
+        "filename": "SPECS/dynamic_local_pv_provisioner.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 183
+      },
+      "writtenOn": "2019-10-21T13:29:13Z",
+      "side": 1,
+      "message": "you start versioning with hotfix?",
+      "revId": "a0302ad1813c81acb34edd581477dc7158f6415e",
+      "serverId": "4cada01b-0314-4fe0-84a1-f9ddc89863f9",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c594e180_caf85593",
+        "filename": "ansible/roles/kubernetes_storage/templates/local-storageclass.yaml.j2",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 183
+      },
+      "writtenOn": "2019-10-21T13:29:13Z",
+      "side": 1,
+      "message": "the direct opposite",
+      "revId": "a0302ad1813c81acb34edd581477dc7158f6415e",
+      "serverId": "4cada01b-0314-4fe0-84a1-f9ddc89863f9",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "dc9287da_644a3aa8",
+        "filename": "ansible/roles/kubernetes_storage/templates/local-storageclass.yaml.j2",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 183
+      },
+      "writtenOn": "2019-10-21T13:29:13Z",
+      "side": 1,
+      "message": "delete comment",
+      "revId": "a0302ad1813c81acb34edd581477dc7158f6415e",
+      "serverId": "4cada01b-0314-4fe0-84a1-f9ddc89863f9",
+      "unresolved": true
+    }
+  ]
+}
