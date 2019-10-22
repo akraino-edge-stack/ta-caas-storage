@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "239cba9d_a39b23e3",
+        "filename": "SPECS/LICENSE",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 185
+      },
+      "writtenOn": "2019-10-22T08:15:15Z",
+      "side": 1,
+      "message": "removed",
+      "parentUuid": "b693c9af_ff3c0ec8",
+      "revId": "a0302ad1813c81acb34edd581477dc7158f6415e",
+      "serverId": "4cada01b-0314-4fe0-84a1-f9ddc89863f9",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "52047cde_1eae24c6",
         "filename": "SPECS/dynamic_local_pv_provisioner.spec",
         "patchSetId": 3
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "6caadd29_88c4667f",
+        "filename": "SPECS/dynamic_local_pv_provisioner.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 185
+      },
+      "writtenOn": "2019-10-22T08:15:15Z",
+      "side": 1,
+      "message": "There is no major version available, since it\u0027s works from Balint\u0027s github fork, I am open for suggestions what would you like to see here.",
+      "parentUuid": "52047cde_1eae24c6",
+      "revId": "a0302ad1813c81acb34edd581477dc7158f6415e",
+      "serverId": "4cada01b-0314-4fe0-84a1-f9ddc89863f9",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "a7e6e214_a32de136",
         "filename": "ansible/roles/kubernetes_storage/tasks/main.yaml",
         "patchSetId": 3
@@ -47,6 +83,30 @@
       "writtenOn": "2019-10-21T15:48:31Z",
       "side": 1,
       "message": "This should tell what kind of class is going to be created.",
+      "range": {
+        "startLine": 23,
+        "startChar": 10,
+        "endLine": 23,
+        "endChar": 41
+      },
+      "revId": "a0302ad1813c81acb34edd581477dc7158f6415e",
+      "serverId": "4cada01b-0314-4fe0-84a1-f9ddc89863f9",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4d68db66_3955b6e9",
+        "filename": "ansible/roles/kubernetes_storage/tasks/main.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 185
+      },
+      "writtenOn": "2019-10-22T08:15:15Z",
+      "side": 1,
+      "message": "Added",
+      "parentUuid": "a7e6e214_a32de136",
       "range": {
         "startLine": 23,
         "startChar": 10,
@@ -82,6 +142,30 @@
     },
     {
       "key": {
+        "uuid": "2e1cfc5e_30b8fb6b",
+        "filename": "ansible/roles/kubernetes_storage/tasks/main.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 185
+      },
+      "writtenOn": "2019-10-22T08:15:15Z",
+      "side": 1,
+      "message": "Added",
+      "parentUuid": "efd2905e_270eba8d",
+      "range": {
+        "startLine": 27,
+        "startChar": 10,
+        "endLine": 27,
+        "endChar": 41
+      },
+      "revId": "a0302ad1813c81acb34edd581477dc7158f6415e",
+      "serverId": "4cada01b-0314-4fe0-84a1-f9ddc89863f9",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "83a00a1b_b490f2b8",
         "filename": "ansible/roles/kubernetes_storage/tasks/main.yaml",
         "patchSetId": 3
@@ -93,6 +177,30 @@
       "writtenOn": "2019-10-21T15:48:31Z",
       "side": 1,
       "message": "What is the reason for brackets?",
+      "range": {
+        "startLine": 29,
+        "startChar": 12,
+        "endLine": 29,
+        "endChar": 34
+      },
+      "revId": "a0302ad1813c81acb34edd581477dc7158f6415e",
+      "serverId": "4cada01b-0314-4fe0-84a1-f9ddc89863f9",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bae63f2c_12fa90e6",
+        "filename": "ansible/roles/kubernetes_storage/tasks/main.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 185
+      },
+      "writtenOn": "2019-10-22T08:15:15Z",
+      "side": 1,
+      "message": "Removed",
+      "parentUuid": "83a00a1b_b490f2b8",
       "range": {
         "startLine": 29,
         "startChar": 12,
