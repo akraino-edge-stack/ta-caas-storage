@@ -69,6 +69,30 @@
       "revId": "6129546c5b73790e20b61283d208da800a6dfacd",
       "serverId": "4cada01b-0314-4fe0-84a1-f9ddc89863f9",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "77aaf859_bdf6139f",
+        "filename": "docker-build/dynamic_local_pv_provisioner/Dockerfile",
+        "patchSetId": 5
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 137
+      },
+      "writtenOn": "2019-10-24T14:53:49Z",
+      "side": 1,
+      "message": "Fair enough, I\u0027ll try to build this locally and get back when I know how many changes are required.",
+      "parentUuid": "b904cb7f_936a5248",
+      "range": {
+        "startLine": 34,
+        "startChar": 126,
+        "endLine": 34,
+        "endChar": 132
+      },
+      "revId": "6129546c5b73790e20b61283d208da800a6dfacd",
+      "serverId": "4cada01b-0314-4fe0-84a1-f9ddc89863f9",
+      "unresolved": true
     }
   ]
 }
