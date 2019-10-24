@@ -45,6 +45,30 @@
       "revId": "6129546c5b73790e20b61283d208da800a6dfacd",
       "serverId": "4cada01b-0314-4fe0-84a1-f9ddc89863f9",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b904cb7f_936a5248",
+        "filename": "docker-build/dynamic_local_pv_provisioner/Dockerfile",
+        "patchSetId": 5
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 43
+      },
+      "writtenOn": "2019-10-24T14:51:10Z",
+      "side": 1,
+      "message": "Either way is fine. How much work is needed? If it\u0027s just a couple of obvious lines then I\u0027d suggest posting them in Gerrit comments on this change. If more complicated or if specific testing is required then a separate change would make sense.",
+      "parentUuid": "b9c9f15e_85dc2c2d",
+      "range": {
+        "startLine": 34,
+        "startChar": 126,
+        "endLine": 34,
+        "endChar": 132
+      },
+      "revId": "6129546c5b73790e20b61283d208da800a6dfacd",
+      "serverId": "4cada01b-0314-4fe0-84a1-f9ddc89863f9",
+      "unresolved": true
     }
   ]
 }
