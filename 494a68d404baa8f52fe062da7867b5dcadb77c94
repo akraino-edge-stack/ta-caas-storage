@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "eceae5f4_0e30c2de",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 43
+      },
+      "writtenOn": "2019-11-08T12:29:51Z",
+      "side": 1,
+      "message": "Can we get a bit more detail in the commit message. I don\u0027t see anything obviously wrong with the changes in this commit, but I also don\u0027t see any reason at all why they are being made. From just reviewing this commit it appears that we\u0027re changing directory names for no good reason. The commit message should document the reason for the change.\n\nThe reason could be a link to a Jira issue, or it could reference a previous Gerrit commit if it\u0027s fixing something that was missed in another commit. If there\u0027s no Jira or previous Gerrit to change, then at least there should be a sentence or two explaining why the change is being made.",
+      "revId": "494a68d404baa8f52fe062da7867b5dcadb77c94",
+      "serverId": "4cada01b-0314-4fe0-84a1-f9ddc89863f9",
+      "unresolved": false
+    }
+  ]
+}
