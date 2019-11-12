@@ -34,9 +34,7 @@ RUN apk update \
 &&  curl -fsSL -o /usr/local/bin/dep https://github.com/golang/dep/releases/download/v${DEPENDENCY_MANAGER_VERSION}/dep-linux-${HOST_ARCH} \
 &&  chmod +x /usr/local/bin/dep \
 &&  mkdir -p $BUILD_DIR \
-# &&  git clone https://github.com/balintTobik/dynamic-local-pv-provisioner.git $BUILD_DIR \ 
-# &&  git clone https://github.com/nokia/dynamic-local-pv-provisioner.git $BUILD_DIR \
-&&  git clone https://github.com/nokia/dynamic-local-pv-provisioner-fork.git $BUILD_DIR \
+&&  git clone https://github.com/nokia/dynamic-local-pv-provisioner.git $BUILD_DIR \
 &&  cd $BUILD_DIR \
 &&  git fetch --tags \
 &&  git checkout ${DYNAMIC_LOCAL_PV_PROVISIONER_VERSION} \
