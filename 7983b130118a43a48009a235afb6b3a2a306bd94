@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f4918491_2b57aa2a",
+        "filename": "docker-build/dynamic_local_pv_provisioner/Dockerfile",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 183
+      },
+      "writtenOn": "2019-11-12T12:16:41Z",
+      "side": 1,
+      "message": "nope",
+      "revId": "7983b130118a43a48009a235afb6b3a2a306bd94",
+      "serverId": "4cada01b-0314-4fe0-84a1-f9ddc89863f9",
+      "unresolved": true
+    }
+  ]
+}
