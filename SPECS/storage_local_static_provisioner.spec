@@ -15,7 +15,7 @@
 %define COMPONENT storage_local_static_provisioner
 %define RPM_NAME caas-%{COMPONENT}
 %define RPM_MAJOR_VERSION 2.3.3
-%define RPM_MINOR_VERSION 0
+%define RPM_MINOR_VERSION 1
 %define go_version 1.12.9
 %define IMAGE_TAG %{RPM_MAJOR_VERSION}-%{RPM_MINOR_VERSION}
 %define docker_build_dir %{_builddir}/%{RPM_NAME}-%{RPM_MAJOR_VERSION}/docker-build
