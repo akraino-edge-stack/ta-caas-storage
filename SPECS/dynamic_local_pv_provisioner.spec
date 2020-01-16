@@ -15,10 +15,10 @@
 %define COMPONENT dynamic_local_pv_provisioner
 %define RPM_NAME caas-%{COMPONENT}
 %define RPM_MAJOR_VERSION 0.1.0
-%define RPM_MINOR_VERSION 4
+%define RPM_MINOR_VERSION 5
 %define go_version 1.12.10
 %define DEPENDENCY_MANAGER_VERSION 0.5.4
-%define DYNAMIC_LOCAL_PV_PROVISIONER_VERSION d19433b1072775791733a27b3c860b0fb2aadb28
+%define DYNAMIC_LOCAL_PV_PROVISIONER_VERSION 9df5dc7cf8cfa34a96b9170a950fdbbc1f14efb8
 %define IMAGE_TAG %{RPM_MAJOR_VERSION}-%{RPM_MINOR_VERSION}
 %define docker_build_dir %{_builddir}/%{RPM_NAME}-%{RPM_MAJOR_VERSION}/docker-build
 %define docker_save_dir %{_builddir}/%{RPM_NAME}-%{RPM_MAJOR_VERSION}/docker-save
@@ -77,4 +77,3 @@ rsync -av %{docker_save_dir}/%{COMPONENT}:%{IMAGE_TAG}.tar %{buildroot}/%{_caas_
 
 %clean
 rm -rf ${buildroot}
-
